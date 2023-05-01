@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply box-border;
+    }
+
+    body {
+        @apply font-karla;
+    }
+
+    main {
+        @apply flex h-screen justify-center items-center;
+    }
+
+    h2, 
+    p {
+       @apply text-base;
+    }
+}
+
+@layer components {
+    .btn {
+        @apply text-base;
+    }
+}
+
+.content-grid {
+    @apply grid w-80 auto-cols-auto auto-rows-min;
+}

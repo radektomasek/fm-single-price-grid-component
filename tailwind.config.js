@@ -16,7 +16,7 @@ module.exports = {
         grayishBlue: 'hsl(218, 22%, 67%)',
       },
       fontFamily: {
-        DEFAULT: ['Karla', 'sans-serif'],
+        karla: ['Karla', 'sans-serif'],
       },
     },
   },
