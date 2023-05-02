@@ -12,12 +12,15 @@
     }
 
     main {
-        @apply flex h-screen justify-center items-center;
+        @apply flex h-screen justify-center items-center bg-backgroundGray;
     }
 
-    h2, 
+    h2, h3 {
+        @apply text-base font-bold;
+    }
+
     p {
-       @apply text-base;
+       @apply text-base font-normal;
     }
 }
 
@@ -28,5 +31,56 @@
 }
 
 .content-grid {
-    @apply grid w-80 auto-cols-auto auto-rows-min;
+    @apply grid w-80 auto-cols-auto auto-rows-min lg:w-40;
+}
+
+.community {
+    @apply bg-white pb-8 pt-7 px-6 lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2;
+}
+
+.community__title {
+    @apply text-cyan text-xl leading-6 tracking-[-0.015625rem];
+}
+
+
+.community__subtitle {
+    @apply text-brightYellow mt-6 mb-4 leading-5 text-[0.9375rem] tracking-[-0.01171875rem];
+}
+
+
+.community__content {
+    @apply text-grayishBlue text-sm leading-[1.625rem] tracking-[-0.0109375rem];
+}
+
+.subscription {
+    @apply bg-cyan text-white pb-8 pt-7 px-6 lg:w-80 lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1;
+}
+
+
+.subscription__title {
+    @apply text-lg;
+}
+
+.subscription__cost {
+    @apply mt-[1.125rem] mb-1 text-[2rem] relative;
+}
+
+.subscription__cost > span {
+    @apply text-sm opacity-50 font-normal absolute left-[4.3rem] bottom-0.5;
+}
+
+.subscription__signup {
+    @apply mt-[1.625rem] bg-brightYellow w-64 h-12 font-bold;
+}
+
+.testemonial {
+    @apply bg-cyan opacity-70 text-white pb-8 pt-7 px-6 lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1 lg:w-80;
+}
+
+.testemonial__title {
+    @apply text-lg;
+}
+
+.testemonial__list {
+    @apply text-sm mt-5;
 }
