@@ -8,11 +8,11 @@
     }
 
     body {
-        @apply font-karla;
+        @apply font-karla bg-backgroundGray;
     }
 
     main {
-        @apply flex h-screen justify-center items-center bg-backgroundGray;
+        @apply min-h-fit min-h-fit flex h-screen;
     }
 
     h2, h3 {
@@ -31,31 +31,28 @@
 }
 
 .content-grid {
-    @apply grid w-80 auto-cols-auto auto-rows-min lg:w-40;
+    @apply grid auto-cols-min auto-rows-min max-w-2xl m-auto lg:auto-cols-fr;
 }
 
 .community {
-    @apply bg-white pb-8 pt-7 px-6 lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2;
+    @apply bg-white pb-8 pt-7 px-6 lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2 lg:w-auto;
 }
 
 .community__title {
     @apply text-cyan text-xl leading-6 tracking-[-0.015625rem];
 }
 
-
 .community__subtitle {
     @apply text-brightYellow mt-6 mb-4 leading-5 text-[0.9375rem] tracking-[-0.01171875rem];
 }
-
 
 .community__content {
     @apply text-grayishBlue text-sm leading-[1.625rem] tracking-[-0.0109375rem];
 }
 
 .subscription {
-    @apply bg-cyan text-white pb-8 pt-7 px-6 lg:w-80 lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1;
+    @apply bg-cyan text-white pb-8 pt-7 px-6 lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1;
 }
-
 
 .subscription__title {
     @apply text-lg;
@@ -74,7 +71,7 @@
 }
 
 .testemonial {
-    @apply bg-cyan opacity-70 text-white pb-8 pt-7 px-6 lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1 lg:w-80;
+    @apply bg-cyan opacity-70 text-white pb-8 pt-7 px-6 lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1;
 }
 
 .testemonial__title {
