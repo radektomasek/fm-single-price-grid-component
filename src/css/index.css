@@ -31,11 +31,11 @@
 }
 
 .content-grid {
-    @apply grid auto-cols-min auto-rows-min max-w-2xl m-auto lg:auto-cols-fr;
+    @apply grid auto-cols-min auto-rows-min max-w-2xl m-auto lg:auto-cols-fr drop-shadow-xl;
 }
 
 .community {
-    @apply bg-white pb-8 pt-7 px-6 lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2 lg:w-auto;
+    @apply rounded-t bg-white pb-8 pt-7 px-6 lg:p-10 lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2 lg:w-auto;
 }
 
 .community__title {
@@ -51,7 +51,7 @@
 }
 
 .subscription {
-    @apply bg-cyan text-white pb-8 pt-7 px-6 lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1;
+    @apply bg-cyan text-white pb-8 pt-7 px-6 lg:p-10 lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1 lg:h-[16.25rem];
 }
 
 .subscription__title {
@@ -59,7 +59,7 @@
 }
 
 .subscription__cost {
-    @apply mt-[1.125rem] mb-1 text-[2rem] relative;
+    @apply mt-[1.125rem] mb-2 text-[2rem] relative font-bold;
 }
 
 .subscription__cost > span {
@@ -67,11 +67,11 @@
 }
 
 .subscription__signup {
-    @apply mt-[1.625rem] bg-brightYellow w-64 h-12 font-bold;
+    @apply mt-[1.625rem] bg-brightYellow w-64 h-12 font-bold drop-shadow-2xl rounded-md;
 }
 
 .testemonial {
-    @apply bg-cyan opacity-70 text-white pb-8 pt-7 px-6 lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1;
+    @apply rounded-b bg-cyan opacity-70 text-white pb-8 pt-7 px-6 lg:p-10 lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1 lg:h-[16.25rem];
 }
 
 .testemonial__title {
@@ -79,5 +79,13 @@
 }
 
 .testemonial__list {
-    @apply text-sm mt-5;
+    @apply text-sm mt-3;
+}
+
+.attribution {
+    @apply bg-cyan text-white text-center text-xs p-2;
+}
+
+.attribution a {
+    @apply text-brightYellow hover:underline;
 }

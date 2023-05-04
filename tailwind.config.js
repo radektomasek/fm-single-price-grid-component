@@ -19,6 +19,10 @@ module.exports = {
       fontFamily: {
         karla: ['Karla', 'sans-serif'],
       },
+      dropShadow: {
+        'xl': '0 4px 4px rgba(0, 0, 0, 0.25)',
+        '2xl': '0 10px 10px rgba(0, 0, 0, 0.097)'
+      }
     },
   },
   plugins: [],
