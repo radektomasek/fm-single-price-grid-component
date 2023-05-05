@@ -37,7 +37,7 @@
 }
 
 .community {
-    @apply rounded-t bg-white pb-8 pt-7 px-6 lg:p-10 lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2 lg:w-auto;
+    @apply rounded-t lg:rounded-t-lg bg-white pb-8 pt-7 px-6 lg:p-10 lg:row-start-1 lg:row-span-1 lg:col-start-1 lg:col-span-2 lg:w-auto;
 }
 
 .community__title {
@@ -53,7 +53,7 @@
 }
 
 .subscription {
-    @apply bg-cyan text-white pb-8 pt-7 px-6 lg:p-10 lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1 lg:h-[16.25rem];
+    @apply bg-cyan text-white pb-8 pt-7 px-6 lg:rounded-bl-lg lg:p-10 lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-span-1 lg:h-[16.25rem];
 }
 
 .subscription__title {
@@ -73,7 +73,7 @@
 }
 
 .testemonial {
-    @apply rounded-b bg-cyan opacity-70 text-white pb-8 pt-7 px-6 lg:p-10 lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1 lg:h-[16.25rem];
+    @apply rounded-b bg-cyan opacity-70 text-white pb-8 pt-7 px-6 lg:p-10 lg:rounded-b-none lg:rounded-br-lg lg:row-start-2 lg:row-span-1 lg:col-start-2 lg:col-span-1 lg:h-[16.25rem];
 }
 
 .testemonial__title {
