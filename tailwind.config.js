@@ -13,7 +13,7 @@ module.exports = {
         cyan: 'hsl(179, 62%, 43%)',
         brightYellow: 'hsl(71, 73%, 54%)',
         lightGray: 'hsl(204, 43%, 93%)',
-        backgroundGray: 'hsl(0, 0%, 95%)',
+        backgroundBlue: 'hsl(205, 44%, 93%)',
         grayishBlue: 'hsl(218, 22%, 67%)',
       },
       fontFamily: {
